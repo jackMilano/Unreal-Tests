@@ -91,8 +91,6 @@ void AFirstPawn::MoveForward(float Val)
     if (Val != 0.0f) {
         if (PlayerController)
         {
-            UE_LOG(LogTemp, Warning, TEXT("ATestPawn MoveForward. Val = '%f'"), Val);
-
             // Move at Speed units per second forward or backward
             CurrentVelocity.X = FMath::Clamp(Val, -1.0f, 1.0f) * Speed;
         }
@@ -108,8 +106,6 @@ void AFirstPawn::MoveRight(float Val)
     if (Val != 0.0f) {
         if (PlayerController)
         {
-            UE_LOG(LogTemp, Warning, TEXT("ATestPawn MoveRight. Val = '%f'"), Val);
-
             // Move at Speed units per second right or left
             CurrentVelocity.Y = FMath::Clamp(Val, -1.0f, 1.0f) * Speed;
         }
@@ -125,8 +121,6 @@ void AFirstPawn::MoveUp(float Val)
     if (Val != 0.0f) {
         if (PlayerController)
         {
-            UE_LOG(LogTemp, Warning, TEXT("ATestPawn MoveUp. Val = '%f'"), Val);
-
             // Move at Speed units per second up or down
             CurrentVelocity.Z = FMath::Clamp(Val, -1.0f, 1.0f) * Speed;
         }
