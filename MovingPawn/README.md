@@ -4,7 +4,7 @@
 	- moving cube with `SetActorLocation`
 	- camera: first person
 - Pawn #2
-	- moving cube with a movement component (`UPawnMovementComponent`?)
+	- moving cube with a movement component (`UPawnMovementComponent`)
 	- camera: third person
 - Pawn #3
 	- moving sphere applying force to a `UStaticMeshComponent`
