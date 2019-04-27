@@ -19,6 +19,5 @@ void AMyCustomPlayerController::SetupInputComponent()
 	UE_LOG(LogTemp, Warning, TEXT("AMyCustomPlayerController SetupInputComponent."));
 
 	Super::SetupInputComponent();
-
 }
 
